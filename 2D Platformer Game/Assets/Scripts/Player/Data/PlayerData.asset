@@ -30,7 +30,7 @@ MonoBehaviour:
   _stopOffset: {x: 0.4, y: 0.8}
   _dashCooldown: 1
   _maxHoldTime: 1
-  _holdTimeScale: 0.25
+  _holdTimeScale: 1
   _dashTime: 0.25
   _dashVelocity: 30
   _drag: 10
