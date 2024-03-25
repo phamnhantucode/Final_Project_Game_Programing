@@ -12,7 +12,7 @@ public class MainMenuSceneManager : MonoBehaviour
     public void PlayGame()
     {
         ApplicationModel.PreviousScene = ApplicationModel.CurrentScene;
-        ApplicationModel.CurrentScene = (int)Loader.Scene.Scene1;
+        ApplicationModel.CurrentScene = (int)Loader.Scene.Scene2;
         SceneManager.LoadScene(Loader.Scene.Loading.ToString());
     }
 
